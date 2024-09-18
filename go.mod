@@ -1,13 +1,14 @@
 module terraform-provider-cloudsqlpostgresql
 
 go 1.21
+toolchain go1.22.5
 
 require (
 	cloud.google.com/go/cloudsqlconn v1.11.0
 	github.com/hashicorp/terraform-plugin-docs v0.18.0
 	github.com/hashicorp/terraform-plugin-framework v1.7.0
 	github.com/hashicorp/terraform-plugin-framework-validators v0.12.0
-	github.com/hashicorp/terraform-plugin-go v0.22.1
+	github.com/hashicorp/terraform-plugin-go v0.24.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	golang.org/x/net v0.26.0
 	golang.org/x/oauth2 v0.21.0
@@ -42,7 +43,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.6.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-plugin v1.6.0 // indirect
+	github.com/hashicorp/go-plugin v1.6.1 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/hc-install v0.6.3 // indirect
@@ -90,7 +91,7 @@ require (
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/api v0.183.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240610135401-a8a62080eff3 // indirect
-	google.golang.org/grpc v1.64.0 // indirect
-	google.golang.org/protobuf v1.34.1 // indirect
+	google.golang.org/grpc v1.66.2 // indirect
+	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
